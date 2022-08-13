@@ -160,7 +160,7 @@ int check_if_label_is_in_any_of_the_tables(table *head_pointer_to_the_tables, ch
     }
     if (head_pointer_to_the_tables == &extern_table_head && is_on_list(entry_table_head, label_name)) {
         /* It is forbidden to declare a label in both entry and extern */
-        printf("ERROR - %s in both extern and entry", label_name);
+        return print_error("ERROR - %s in both extern and entry", label_name);
     }
 
     on_the_tables_already = is_on_list(entry_table_head, label_name) ||
