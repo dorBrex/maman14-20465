@@ -1,4 +1,4 @@
-# maman14-20465
+# maman14-20465 - final score is 96, got some unused functions and not efficient cases... not gonna fix it..
 The final project of Assembler in C (without the linker and loader) course-20465 at the Open University of Israel
 
 
